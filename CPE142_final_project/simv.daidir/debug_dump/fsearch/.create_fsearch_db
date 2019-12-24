@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/usr/pkg/vcs/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/usr/pkg/vcs/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/usr/pkg/vcs/linux64/lib:/usr/pkg/vcs/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/usr/pkg/vcs/linux64/bin/vcsfind_create_index.exe  -z  "/gaia/class/cs1421/cs142124/Phase2_project/simv.daidir/debug_dump/fsearch/./idents_hD9Dav.xml.gz" "/gaia/class/cs1421/cs142124/Phase2_project/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" -o "/gaia/class/cs1421/cs142124/Phase2_project/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/gaia/class/cs1421/cs142124/Phase2_project/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/gaia/class/cs1421/cs142124/Phase2_project/simv.daidir/debug_dump/fsearch/fsearch.db"

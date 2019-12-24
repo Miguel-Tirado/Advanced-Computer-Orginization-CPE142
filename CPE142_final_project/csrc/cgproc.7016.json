@@ -1,0 +1,112 @@
+{
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                0.28543806076049805,
+                0.060884000000000001,
+                0.049133999999999997,
+                281720,
+                295884,
+                1575526808.4703541,
+                610944832517751
+            ],
+            "child_modules": {
+                "hazardDetection_fixture": 1
+            },
+            "end_perf": [
+                0.30642104148864746,
+                0.061751,
+                0.052000999999999999,
+                283120,
+                295884,
+                610944887094286,
+                0,
+                0
+            ],
+            "nQuads": 0,
+            "nRouts": 5,
+            "nMops": 0
+        },
+        "hazardDetection_fixture": {
+            "start_perf": [
+                0.30653095245361328,
+                0.061810999999999998,
+                0.052051,
+                283120,
+                295884,
+                1575526808.491447,
+                610944887349765
+            ],
+            "child_modules": {},
+            "Compiled": "Yes",
+            "nQuads": 288,
+            "Compiled Times": 4,
+            "end_perf": [
+                0.33804488182067871,
+                0.063281000000000004,
+                0.058991000000000002,
+                287244,
+                295884,
+                610944969338866,
+                7705474284661657327,
+                0
+            ],
+            "nRouts": 19,
+            "nMops": 646
+        }
+    },
+    "CompUnits": {
+        "GNAJK_d": {
+            "mod": "hazardDetection_fixture",
+            "out": "GNAJK_d.o",
+            "bytes": 12792,
+            "archive": "archive.152/_7016_archive_1.a",
+            "text": 2243,
+            "mode": 4,
+            "checksum": 0
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.152/_7016_archive_1.a",
+            "objects": [
+                [
+                    "GNAJK_d.o",
+                    12792
+                ],
+                [
+                    "amcQwB.o",
+                    97170
+                ]
+            ],
+            "size": 109962
+        }
+    ],
+    "stat": {
+        "ru_self_end": {
+            "ru_utime_sec": 0.065708000000000003,
+            "ru_nvcsw": 465,
+            "ru_stime_sec": 0.061399000000000002,
+            "ru_maxrss_kb": 74904,
+            "ru_minflt": 26486,
+            "ru_nivcsw": 2,
+            "ru_majflt": 0
+        },
+        "peak_mem_kb": 295884,
+        "cpu_cycles_end": 610945058591878,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.021963,
+            "ru_nvcsw": 50,
+            "ru_stime_sec": 0.025566999999999999,
+            "ru_maxrss_kb": 20328,
+            "ru_minflt": 11019,
+            "ru_nivcsw": 24,
+            "ru_majflt": 0
+        }
+    }
+}

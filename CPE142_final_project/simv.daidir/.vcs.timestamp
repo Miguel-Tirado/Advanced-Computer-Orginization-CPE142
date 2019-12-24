@@ -1,0 +1,80 @@
+0 
+25
++itf+/usr/pkg/vcs/linux64/lib/vcsdp_lite.tab
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/pkg/vcs/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/pkg/vcs/linux64/lib/libvirsim.so /usr/pkg/vcs/linux64/lib/liberrorinf.so /usr/pkg/vcs/linux64/lib/libsnpsmalloc.so /usr/pkg/vcs/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/usr/pkg/vcs/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/pkg/vcs/include
+-debug_access
+-full64
+-gen_obj
+-picarchive
+/usr/pkg/vcs/linux64/bin/vcs1
+hazardDetection_fixture.v
+40
+X_COLORMAP_DEFAULT=0
+X_COLORMAP_BASE=128
+XDG_SESSION_ID=3099
+XDG_RUNTIME_DIR=/run/user/50023
+XDBGJTAGWAITTIME=20
+WWW_HOME=http://www.csus.edu
+VMR_MODE_FLAG=64
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LICENSE_EXPIRE_WARNING=1
+VCS_HOME=/usr/pkg/vcs
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/pkg/vcs/linux64
+SYNOPSYS_SYN=/usr/pkg/syn
+SYNOPSYS_SIM=/usr/pkg/vcs
+SSH_TTY=/dev/pts/0
+SSH_CONNECTION=10.114.28.92 50369 130.86.67.160 22
+SSH_CLIENT=10.114.28.92 50369 22
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=10.114.28.92
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+P3_ENABLE_NFS_DB_ACCESS=yes
+OVA_UUM=0
+OSTYPE=linux
+MSC_LICENSE_FILE=51700@flex2.ecs.csus.edu
+MAGIC_COLOR=16bit
+LINK_TIMEOUT=3
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+HOSTTYPE=x86_64-linux
+GROUP=cs1421
+CDS_LIC_FILE=51700@flex2.ecs.csus.edu
+0
+3
+1575343435 hazardDetection.v
+1575526792 hazardDetection_fixture.v
+1559877362 /usr/pkg/vcs/linux64/lib/vcsdp_lite.tab
+4
+1559878665 /usr/pkg/vcs/linux64/lib/libvirsim.so
+1559877919 /usr/pkg/vcs/linux64/lib/liberrorinf.so
+1559877863 /usr/pkg/vcs/linux64/lib/libsnpsmalloc.so
+1559877910 /usr/pkg/vcs/linux64/lib/libvfs.so
+1575526810 simv.daidir
+-1 partitionlib
